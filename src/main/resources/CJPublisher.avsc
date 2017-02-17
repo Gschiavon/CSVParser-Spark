@@ -1,0 +1,24 @@
+{
+    "namespace": "model",
+    "type": "record",
+    "name": "DigitalAnalyticsCJPublisherAPI",
+    "doc": "Publisher data pull from the Commission Junction API",
+    "fields": [
+        {"name": "cid", "type": "long", "doc": "The publisher’s company ID."},
+        {"name": "country", "type": "string", "doc": "The country where the publisher is located."},
+        {"name": "currency", "type": "string", "doc": "The functional currency used by the publisher."},
+        {"name": "network_rating", "type": "long", "doc": "A rating of 0-5 that shows how publishers rate compared to other publishers in the network based on the volume of commissions earned."},
+        {"name": "publisher_name", "type": "string", "doc": "The publisher's company name."},
+        {"name": "seven_day_epc", "type": "float", "doc": "The publisher’s 7-day EPC (Average Earnings Per One Hundred Clicks)."},
+        {"name": "three_month_epc", "type": "float", "doc": "The publisher’s 3-month EPC (Average Earnings Per One Hundred Clicks)."},
+        {"name": "program_name", "type": "string", "doc": "The program term name the publisher is contracted on."},
+        {"name": "date_accepted", "type": "long", "doc": ""},
+        {"name": "date_expired", "type": "long", "doc": ""},
+        {"name": "join_status", "type": "string", "doc": ""},
+        {"name": "website_name", "type": "string", "doc": "Name: This is the name of the publisher's Web site"},
+        {"name": "website_url", "type": "string", "doc": "URL: This is the URL of the publisher's Web site."},
+        {"name": "website_category", "type": "string", "doc": "Category: This is the category in which the publisher's Web site is classified."},
+        {"name": "website_pid", "type": "long", "doc": "PID: This is the publisher's Web site ID number."},
+        {"name": "promotional_method", "type": "string", "doc": "The promotional method stated by the publisher. Possible results: search, email, software, content."}
+       ]
+}
